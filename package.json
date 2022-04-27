@@ -1,0 +1,25 @@
+{
+  "name": "calcula-valor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --verbose=true --coverage=true",
+    "lint": "eslint src/** test/** --fix",
+    "watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0"
+  }
+}
