@@ -7,7 +7,7 @@ describe('calcularMontante', () => {
     const montante = calculaValor.calcularMontante(100, 0.0175, 1);
 
     // Resultado ou Compotamento esperado
-    expect(montante).toBe(100);
+    expect(montante).toBe(110);
   });
 
   test('Com 4 prestações o montante é acrescido de juros', () => {
